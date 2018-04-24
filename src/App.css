@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.vis-item.vis-box {
+  background-color: #eee !important;
+  border: 0 !important;
+}
+.vis-item.vis-box:hover .m-sum-date {
+  display: block !important;
+}
+.App-header {
+  background-color: #222;
+  height: 196px;
+  padding: 20px;
+  color: white;
+}
+
+.area {
+  border: 1px solid silver;
+  border-radius: 5px;
+  background: #eee;
+  padding: 8px;
+  width: 100px;
+}
+
+.milestone-title {
+    font-size: 24px;
+    font-weight: 300;
+    color: #333;
+    padding: 4px 0;
+}
+
+.milestone-date {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+
+}
+.m-sum-title {
+  font-size: 18px;
+  color: #333;
+}
+.m-sum-date {
+  font-size: 14px;
+  color: #666;
+}
+.milestone-wrapper {
+  padding: 12px;
+}
+.milestone-status {
+    font-size: 14px;
+    color: #333;
+}
+.milestone-status .status-icon {
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.status-icon.in-progress {border-color:  green;}
+.status-icon.not-started {border-color: silver;}
+.status-icon.overdue {border-color: red;}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.in-progress {
+  color: #00b;
+}
+.overdue {
+  color: #b00;
+}
+
+.not-started {
+  color: #666;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
